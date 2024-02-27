@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Check OUT') {
       steps {
-        git branch: 'master', credentialsId: 'mirohee', url: 'https://github.com/mirohee/FarToCel.git'
+        git branch: 'main', credentialsId: 'mirohee', url: 'https://github.com/mirohee/FarToCel.git'
 
       }
     }
