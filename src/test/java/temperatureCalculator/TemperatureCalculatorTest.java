@@ -3,7 +3,7 @@ package temperatureCalculator;
 import org.junit.*;
 import static org.junit.Assert.assertEquals;
 
-public class temperatureCalculatorTest {
+public class TemperatureCalculatorTest {
 
     @Test
     public void testFahrenheitToCelsiusWithZeroFahrenheit() {
