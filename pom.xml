@@ -26,6 +26,7 @@
   </dependencies>
 
   <build>
+    <finalName>interconversions</finalName>
     <plugins>
       <plugin>
         <groupId>org.jacoco</groupId>
@@ -46,6 +47,20 @@
             </goals>
           </execution>
         </executions>
+      </plugin>
+
+      <!-- Maven JAR plugin configuration -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.2.0</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>temperatureCalculator.Main</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
       </plugin>
     </plugins>
   </build>
