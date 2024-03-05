@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="temperatureCalculator.temperatureCalculatorTest" time="0.091" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="temperatureCalculator.TemperatureCalculatorTest" time="0.157" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Users\saari\.jdks\corretto-17.0.9\bin"/>
-    <property name="sun.java.command" value="C:\Users\saari\AppData\Local\Temp\surefire11945342761252684083\surefirebooter-20240227221119950_3.jar C:\Users\saari\AppData\Local\Temp\surefire11945342761252684083 2024-02-27T22-11-19_845-jvmRun1 surefire-20240227221119950_1tmp surefire_0-20240227221119950_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\saari\AppData\Local\Temp\surefire5401152955222559054\surefirebooter-20240305204451109_3.jar C:\Users\saari\AppData\Local\Temp\surefire5401152955222559054 2024-03-05T20-44-50_876-jvmRun1 surefire-20240305204451109_1tmp surefire_0-20240305204451109_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\saari\Documents\dev\software_engineering_maven\target\test-classes;C:\Users\saari\Documents\dev\software_engineering_maven\target\classes;C:\Users\saari\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\saari\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\saari\AppData\Local\Temp\surefire11945342761252684083\surefirebooter-20240227221119950_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\saari\AppData\Local\Temp\surefire5401152955222559054\surefirebooter-20240305204451109_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+8-LTS"/>
@@ -59,10 +59,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testKelvinToCelsiusNegative" classname="temperatureCalculator.temperatureCalculatorTest" time="0.005"/>
-  <testcase name="testKelvinToCelsiusZero" classname="temperatureCalculator.temperatureCalculatorTest" time="0"/>
-  <testcase name="testFahrenheitToCelsiusWithZeroFahrenheit" classname="temperatureCalculator.temperatureCalculatorTest" time="0"/>
-  <testcase name="testFahrenheitToCelsiusWithNegativeFahrenheit" classname="temperatureCalculator.temperatureCalculatorTest" time="0"/>
-  <testcase name="testFahrenheitToCelsiusWithPositiveFahrenheit" classname="temperatureCalculator.temperatureCalculatorTest" time="0"/>
-  <testcase name="testKelvinToCelsiusPositive" classname="temperatureCalculator.temperatureCalculatorTest" time="0"/>
+  <testcase name="testKelvinToCelsiusNegative" classname="temperatureCalculator.TemperatureCalculatorTest" time="0.005"/>
+  <testcase name="testKelvinToCelsiusZero" classname="temperatureCalculator.TemperatureCalculatorTest" time="0"/>
+  <testcase name="testKelvinToFahrenheit" classname="temperatureCalculator.TemperatureCalculatorTest" time="0"/>
+  <testcase name="testFahrenheitToCelsiusWithZeroFahrenheit" classname="temperatureCalculator.TemperatureCalculatorTest" time="0"/>
+  <testcase name="testFahrenheitToCelsiusWithNegativeFahrenheit" classname="temperatureCalculator.TemperatureCalculatorTest" time="0"/>
+  <testcase name="testFahrenheitToCelsiusWithPositiveFahrenheit" classname="temperatureCalculator.TemperatureCalculatorTest" time="0"/>
+  <testcase name="testKelvinToCelsiusPositive" classname="temperatureCalculator.TemperatureCalculatorTest" time="0.001"/>
 </testsuite>

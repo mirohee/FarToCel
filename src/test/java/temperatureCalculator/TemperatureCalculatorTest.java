@@ -37,4 +37,10 @@ public class TemperatureCalculatorTest {
         assertEquals(-100.0f, temperatureCalculator.kelvintoCel(173.15f), 0.001f);
     }
 
+    @Test
+    public void testKelvinToFahrenheit() {
+        assertEquals(32.0f, temperatureCalculator.kelvinToFah(273.15f), 0.001f);
+        assertEquals(212.0f, temperatureCalculator.kelvinToFah(373.15f), 0.001f);
+    }
+
 }

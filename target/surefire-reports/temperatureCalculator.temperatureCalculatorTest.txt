@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: temperatureCalculator.temperatureCalculatorTest
+Test set: temperatureCalculator.TemperatureCalculatorTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 s - in temperatureCalculator.temperatureCalculatorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.157 s - in temperatureCalculator.TemperatureCalculatorTest
