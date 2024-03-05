@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         PATH = "${env.PATH};C:\\Windows\\System32" // Update the PATH to include the directory of cmd.exe
-        DOCKERHUB_CREDENTIALS_ID = 'mirohee'
+        DOCKERHUB_CREDENTIALS_ID = 'miroheeDOCKER'
         DOCKERHUB_REPO = 'mirohee/fartocelkelvin'
         DOCKER_IMAGE_TAG = 'latest'
     }
